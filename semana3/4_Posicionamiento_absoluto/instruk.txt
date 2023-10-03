@@ -1,0 +1,37 @@
+
+En este ejercicio deberás crear una página web (index.html) compuesta de 3 article sin contenido dentro de un section.
+
+
+
+También deberás crear el archivo CSS (styles.css) para estilizar el documento.
+
+
+
+Los 3 article tienen atributos comunes:
+
+Ancho y alto de 200px
+
+Un borde de 5px solid black
+
+Una sombra de 10px 10px 5px gray
+
+
+
+Cada article debe tener un color diferente. El segundo article debe posicionarse 200px más abajo que el primero, y el tercer article debe estar alineado horizontalmente con el primero, tal como se muestra en la imagen de ejemplo.
+
+
+
+
+En este ejercicio se trata de practicar el posicionamiento absoluto. Recuerda enlazar tu archivo style.css a index.html
+
+
+
+Para que cuadren perfectamente los articles, debes eliminar todo margin y padding de los elementos por medio de un CSS Reset.
+
+
+
+El resultado final debe funcionar y visualizarse correctamente al pulsar el botón verde "Run" en la parte superior del editor y el código CSS no debe dar ningún error en el Validador de CSS de la W3.
+
+
+
+

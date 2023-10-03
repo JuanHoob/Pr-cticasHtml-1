@@ -1,0 +1,22 @@
+
+DUE DATE
+3/10/2023 05:59 p. m.
+SUBMISSION CUTOFF
+3/10/2023 05:59 p. m.
+Unlimited Submissions
+
+
+Crea una animación que muestre un estado de "cargando..." para el siguiente documento HTML. Para lograr esto, usa la regla @keyframes de CSS para crear una animación que cause que el elemento se expanda y se contraiga, de manera similar al comportamiento mostrado en el siguiente video de referencia:
+
+
+
+
+
+
+Recuerda no modificar nada en el código proporcionado, simplemente tienes que añadir el código para la animación.
+
+
+
+El resultado final debe funcionar y visualizarse correctamente al pulsar el botón verde "Run" en la parte superior del editor y el código CSS no debe dar ningún error en el Validador de CSS de la W3.
+
+

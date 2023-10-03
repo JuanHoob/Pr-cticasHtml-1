@@ -1,0 +1,21 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.loading-circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #ff9a9a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Define aquí tu animación (nombre, duración, repetición)*/
+
+}
+
+/* Escribe aquí los keyframes de tu animación */
