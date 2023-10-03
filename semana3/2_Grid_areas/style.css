@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo contenedor principal */
+main {
+  background-color: beige;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "content1"
+    "content2"
+    "footer";
+
+  /* Crea aquí la cuadrícula */
+
+}
+
+/* Estilo texto de las secciones */
+main > * {
+  align-items: center;
+  border: 2px solid black;
+  color: #fff;
+  display: flex;
+  font-family: monospace;
+  justify-content: center;
+}
+
+/* Estilo de cada elemento */
+/* Añade a cada uno el área correspondiente */
+header {
+  background-image: linear-gradient(45deg, #7895b2 100%, #aebdca 0%);
+
+}
+
+nav {
+  background-image: linear-gradient(
+    130deg,
+    #7895b2 0%,
+    #aebdca 45%,
+    #7895b2 100%
+  );
+
+}
+
+aside {
+  background-image: linear-gradient(130deg, #aebdca 0%, #7895b2 100%);
+  display: none;
+
+}
+
+section {
+  background-image: linear-gradient(130deg, #aebdca 0%, #7895b2 100%);
+}
+
+section:first-of-type {
+
+}
+
+section:last-of-type {
+
+}
+
+footer {
+  background-image: linear-gradient(45deg, #7895b2 100%, #aebdca 0%);
+
+}
+
+/* Media query pantalla > 600px */
+@media (min-width: 600px) {
+  main {
+    /* Haz aquí las modificaciones necesarias en la cuadrícula y la disposición de las áreas */
+    
+  }
+
+  #sidebar {
+    background-image: linear-gradient(130deg, #aebdca 0%, #7895b2 90%);
+    display: grid;
+  }
+}
