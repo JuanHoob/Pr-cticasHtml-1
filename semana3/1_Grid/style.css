@@ -21,6 +21,10 @@ main {
   background-color: #e6e6e6;
 
   /* Introduce aquí tu código */
+  display: grid;
+  gap: 20px;
+
+  grid-template-columns: repeat(auto-fit, minmax(0px, 300px));
 
 }
 
@@ -45,7 +49,7 @@ article img {
 }
 
 
-article h2{
+article h2 {
   margin: 10px 0;
   font-size: 24px;
   color: #333;
